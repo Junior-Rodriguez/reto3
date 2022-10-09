@@ -1,0 +1,9 @@
+Configuracion de Maquina virtual con git comandos...
+
+mvn clean package -DskipTests
+
+export JAVA_HOME=$(readlink -f /usr/bin/java | sed "s:bin/java::")
+
+echo $JAVA_HOME
+
+Git pull --> Para bajar actualizaciones del proyecto githap a la maquina
